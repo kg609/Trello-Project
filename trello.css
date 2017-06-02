@@ -116,7 +116,7 @@ input, select {
     width: 1250px;
     height: 600px;
     border: 2px solid grey;
-    border-radius: 25px;
+    border-radius: 10px;
     position: absolute;
     top: 20px;
     right: 50px; 
@@ -126,17 +126,342 @@ input, select {
     box-shadow: 2px 2px 10px grey;
 }
 
-h3 {
+header {
+    border: 2px solid grey;
+    height: 50px;
+    width: 100%;
+    box-shadow: 2px 2px 10px grey;
+}
+
+h6 {
+    position: absolute;
+    top: 17px;
+    left: 45px;
+    font-size: 13px;
+    font-family: sans-serif;
+    opacity: .5;
+}
+
+#title {
     position: absolute;
     left: 620px;
+    top: -60px;
     font-family: "lobster", cursive , sans-serif;
-    color: #4686FC; 
-
-    
+    color: #4686FC;   
 }
 
 form input {
     margin-left: 200px;
+    margin-top: 13px;
     width: 300px;
 }
+
+i:nth-of-type(1) {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 13px;
+    opacity: .4; 
+}
+
+.fa-th-large {
+    position: absolute;
+    left: -160px;
+    top: 3px;
+
+}
+
+.fa-bell-o {
+    position: absolute;
+    left: 1150px;
+    top: 20px;
+}
+
+.fa-bars {
+
+    position: absolute;
+    right: 27px;
+    top: 7px;
+}
+
+.menu {
+    position: absolute;
+    left: 1185px;
+    top: -2px;
+    width: 5%;
+    border: 2px solid black;
+    border-left: 2px solid grey;
+    padding: 17px 0;
+    height: 18px;
+}
+
+.fa-square {
+    position: absolute;
+    left: -130px;
+    color: blue;
+}
+
+.fa-star {
+    position: absolute;
+    left: 56px;
+    bottom: 510px;
+    color: white;
+}
+
+h4 {
+    position: absolute;
+    left: 90px;
+    top: 70px;
+}
+
+.groupName {
+    position: absolute;
+    top: 85px;
+    left: 90px;
+    font-size:11px;
+}
+
+.button1 {
+    position: absolute;
+    left: 565px;
+    top: 70px;
+    width: 8%;
+    height: 30px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.button1 h6 {
+    position: absolute;
+    left: 18px;
+    top: 10px;
+    font-size: 11px;
+}
+
+.button1:active {
+    box-shadow: 2px 2px 10px grey;
+}
+
+.button1:visited {
+    box-shadow: 2px 2px 10px grey;
+}
+
+.button2 {
+    position: absolute;
+    right: 484px;
+    top: 70px;
+    width: 8%;
+    height: 30px;
+    border: 1px solid lightgrey;
+}
+
+.button2 h6 {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    font-size: 11px;
+}
+
+.button2:visited {
+    background: lightgrey;
+}
+
+.button2:hover {
+    background: lightgrey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-filter {
+    position: absolute;
+    top: 80px;
+    left: 1100px;
+}
+
+.fa-th-large {
+    position: absolute;
+    top: 80px;
+    left: 1140px;
+}
+
+.box1 {
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    width: 13%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+img {
+    border-radius: 360px;
+    height: 50px;
+    width: 30%;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+
+div h3 {
+    font-family: sans-serif;
+    color: black;
+    margin: 80px 30px;
+    font-size: 14px;
+}
+
+div h5 {
+    font-size: 11px;
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+    opacity: .5;
+}
+
+.box2 {
+    position: absolute;
+    left: 365px;
+    top: 120px;
+    width: 13%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+.box3 {
+    position: absolute;
+    right: 365px;
+    top: 120px;
+    width: 13%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+.box4 {
+    position: absolute;
+    right: 50px;
+    top: 120px;
+    width: 13%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+.box5 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    width: 13%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+.box6 {
+    position: absolute;
+    left: 365px;
+    bottom: 50px;
+    width: 13%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+.box7 {
+    position: absolute;
+    right: 365px;
+    bottom: 50px;
+    width: 13%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+
+.box8 {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 13%;
+    height: 200px;
+    border: 2px dashed grey;
+    padding: 0 5px;
+    margin: 0 10px;
+    opacity: .5;
+}
+
+.fa-circle {
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+    color: #4686FC;
+}
+
+.taskStatus {
+    position: absolute;
+    top: 130px;
+    left: -2px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid grey;
+
+}
+
+.tab1 {
+    position: absolute;
+    left: -2px;
+    height: 24px;
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+.tab2 {
+    position: absolute;
+    right: -2px;
+    height: 24px;
+    border-left: 1px solid black;
+}
+
+
+.fa-plus {
+    position: absolute;
+    bottom: 43px;
+    right: 57px;
+    color: white;
+    font-size: 12px;
+}
+
+div:nth-of-type(3) .fa-pencil {
+    position: absolute;
+    top: 102px;
+    left: -150px;
+    font-size: 11px;
+}
+
+div:nth-of-type(3) .fa-bell-o {
+    position: absolute;
+    top: 115px;
+    left: 76px;
+    font-size: 11px;
+
+}
+
+div:nth-of-type(3) .fa-trash-o {
+    position: absolute;
+    top: 115px;
+    left: 125px;
+    font-size: 11px;
+}
+
+
+
 
