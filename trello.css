@@ -508,6 +508,7 @@ div .fa-circle-thin {
     position: absolute;
     top: 50px;
     left: 65px;
+    opacity: .3;
 }
 
 .newCardText {
@@ -516,4 +517,19 @@ div .fa-circle-thin {
     left: 10px;
     text-align: center;
     padding: 10px;
+}
+
+#userIcon {
+    position: absolute;
+    top: 60px;
+    left: 72px;
+    font-size: 32px;
+    opacity: .3;
+}
+
+.fa-plus-circle {
+    position: absolute;
+    top: 80px;
+    left: 96px;
+    opacity: .3;
 }
