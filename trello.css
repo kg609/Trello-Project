@@ -416,9 +416,9 @@ div h5 {
     opacity: .5;
 }
 
-.fa-circle {
+#addButton {
     position: absolute;
-    bottom: 35px;
+    bottom: 45px;
     right: 50px;
     color: #4686FC;
 }
@@ -525,7 +525,7 @@ div .fa-circle-thin {
     left: 10px;
     text-align: center;
     padding: 10px;
-   
+
 }
 
 #userIcon {
@@ -536,7 +536,7 @@ div .fa-circle-thin {
     opacity: .6;
 }
 
-.fa-plus-circle {
+#plusCircleIcon {
     position: absolute;
     top: 80px;
     left: 96px;
