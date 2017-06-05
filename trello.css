@@ -182,7 +182,7 @@ form input {
     position: absolute;
     left: 1150px;
     top: 20px;
-    opacity: .2;
+    opacity: .4;
 }
 
 .fa-bars {
@@ -409,9 +409,10 @@ div h5 {
     bottom: 50px;
     width: 13%;
     height: 200px;
-    border: 2px dashed lightgrey;
+    border: 2px dashed grey;
     padding: 0 5px;
     margin: 0 10px;
+    background: lightgrey;
     opacity: .5;
 }
 
@@ -486,6 +487,13 @@ div h5 {
     font-size: 8.5px;
 }
 
+section .fa-address-card-o {
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    opacity: .2;
+}
+
 .profileTab {
     position: absolute;
     top: 8px;
@@ -508,7 +516,7 @@ div .fa-circle-thin {
     position: absolute;
     top: 50px;
     left: 65px;
-    opacity: .3;
+    opacity: .6;
 }
 
 .newCardText {
@@ -517,6 +525,7 @@ div .fa-circle-thin {
     left: 10px;
     text-align: center;
     padding: 10px;
+   
 }
 
 #userIcon {
@@ -524,12 +533,14 @@ div .fa-circle-thin {
     top: 60px;
     left: 72px;
     font-size: 32px;
-    opacity: .3;
+    opacity: .6;
 }
 
 .fa-plus-circle {
     position: absolute;
     top: 80px;
     left: 96px;
-    opacity: .3;
+    opacity: .6;
 }
+
+/*End of new card content*/
