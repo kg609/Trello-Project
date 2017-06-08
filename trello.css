@@ -544,3 +544,18 @@ div .fa-circle-thin {
 }
 
 /*End of new card content*/
+
+/*Form style*/
+.formBox {
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+    background: white;
+}
+
+
