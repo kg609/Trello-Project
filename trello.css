@@ -559,7 +559,7 @@ div .fa-circle-thin {
 }
 
 label {
-    margin: 5px auto;
+    margin: 20px auto;
     padding-left: 25px;
     display: none;
 }
@@ -570,4 +570,34 @@ label {
     display: none;
     width: 90%;
     margin: 10px auto;
+}
+
+.label2 {
+    position: absolute;
+    top: 100px;
+}
+
+#userName {
+    position: absolute;
+    left: 25px;
+    width: 450px;
+}
+
+.label3 {
+    position: absolute;
+    top: 190px;
+}
+
+#fullName {
+    position: absolute;
+    left: 25px;
+    width: 450px;
+}
+
+#submitButton {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-weight: bold;
+    display: none;
 }
