@@ -105,6 +105,7 @@ $("#submitButton").on("click", function(){
 	$("div.newUserBox section.tab2").append("<h6 class='profileTab'> " + "PROFILE " + "</h6>");
 	
 
+	$("span").text("(" + profiles.length + ")");
 	
 
 	console.log("User info: " + profilePic + "\n" + userName + "\n" + fullName);
