@@ -86,25 +86,30 @@ $("#submitButton").on("click", function(){
 	$("i.fa-plus-circle").remove();
 
 
+	//Adds user's info to new profile
 	$("div.newUserBox").append("<img src =" + profilePic + ">");
 	$("div.newUserBox").append("<h3>" + fullName + "</h3>");
 	$("div.newUserBox").append("<h5> " + userName + " </h5>");
 
+	//Adds icons on user's profile
 	$("div.newUserBox").append("<i class='fa fa-pencil' id='pencilIcon'>"+"</i>");
 	$("div.newUserBox").append("<i class='fa fa-bell-o' id='bellIcon'>"+"</i>");
 	$("div.newUserBox").append("<i class='fa fa-trash-o' id='trashIcon'>"+"</i>");
 
+	//Creates two tabs on the bottom of user's profile
 	$("div.newUserBox").append("<section class='taskStatus'> " + "</section>");
 	$("div.newUserBox").append("<section class='tab1'> " + "</section>");
 	$("div.newUserBox").append("<section class='tab2'> " + "</section>");
 
+	//Adds icons to left tab
 	$("div.newUserBox section.tab1").append("<i class='fa fa-address-card-o'> " + "</i>");
 	$("div.newUserBox section.tab1").append("<h6 class='cardTab'> " + "CARDS " + "</h6>");
 
+	//Adds icons to right tab
 	$("div.newUserBox section.tab2").append("<i class='fa fa-user-o'> " + "</i>");
 	$("div.newUserBox section.tab2").append("<h6 class='profileTab'> " + "PROFILE " + "</h6>");
 	
-
+	//Updates the number of team members after a new profile is created
 	$("span").text("(" + profiles.length + ")");
 	
 
