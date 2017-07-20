@@ -122,3 +122,6 @@ $("#submitButton").on("click", function(){
 
 
 //drop down menu
+$("a.dropBtn").on("click", function(){
+	$("#myDropDown").slideToggle();
+});
